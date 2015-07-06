@@ -1,0 +1,8 @@
+<code_scheme name="Default (2)">
+  <codeStyleSettings language="JAVA">
+    <option name="BLANK_LINES_AROUND_FIELD" value="1" />
+    <option name="BLANK_LINES_AROUND_FIELD_IN_INTERFACE" value="1" />
+    <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
+    <option name="SPACE_BEFORE_CATCH_KEYWORD" value="false" />
+  </codeStyleSettings>
+</code_scheme>
