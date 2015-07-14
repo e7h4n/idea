@@ -9,7 +9,11 @@
     <option name="BLANK_LINES_AROUND_FIELD" value="1" />
     <option name="BLANK_LINES_AROUND_FIELD_IN_INTERFACE" value="1" />
     <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
+    <option name="SPACE_AROUND_ASSIGNMENT_OPERATORS" value="false" />
+    <option name="SPACE_BEFORE_METHOD_CALL_PARENTHESES" value="true" />
+    <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
     <option name="SPACE_BEFORE_CATCH_KEYWORD" value="false" />
+    <option name="SPACE_BEFORE_ANOTATION_PARAMETER_LIST" value="true" />
     <arrangement>
       <groups>
         <group>
