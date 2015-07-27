@@ -7,7 +7,6 @@
       <mapping pattern="META-INF" type="PLAIN_TEXT" />
       <mapping ext="pkcs8" type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
-      <mapping ext="proto" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
