@@ -20,4 +20,25 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="DB" value="@org.springframework.context.annotation.Bean&#10;    public com.fenbi.common.db.DbProxy $DB_NAME$DbProxy() {&#10;        return com.fenbi.common.db.DbProxyFactory.createMySQL($DB_NAME$Uri, maxConnections);&#10;    }&#10;    &#10;    @org.springframework.context.annotation.Bean&#10;    public com.fenbi.common.db.DbClient $DB_NAME$DbClient(@org.springframework.beans.factory.annotation.Qualifier(&quot;$DB_NAME$DbProxy&quot;) com.fenbi.common.db.DbProxy dbProxy) {&#10;        com.fenbi.common.db.DbClient client = new com.fenbi.common.db.DbClient();&#10;        client.setDbProxy(dbProxy);&#10;        return client;&#10;    }" toReformat="true" toShortenFQNames="true">
+    <variable name="DB_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="Bash" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
