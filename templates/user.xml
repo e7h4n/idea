@@ -41,7 +41,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="rl" value="com.fenbi.rpc.common.util.RpcRequestLogger rl = com.fenbi.rpc.common.util.RpcRequestLogger.getLogger(&quot;$METHOD$&quot;);&#10;$SELECTION$&#10;rl.log();" toReformat="true" toShortenFQNames="true">
+  <template name="rl" value="com.fenbi.rpc.common.util.RpcRequestLogger rl = com.fenbi.rpc.common.util.RpcRequestLogger.getLogger(&quot;$METHOD$&quot;);&#10;$END$&#10;$SELECTION$&#10;rl.log();" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
