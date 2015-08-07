@@ -1,30 +1,40 @@
 <code_scheme name="fenbi">
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="RIGHT_MARGIN" value="100" />
-  <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
+  <JavaCodeStyleSettings>
+    <option name="ANNOTATION_PARAMETER_WRAP" value="1" />
+  </JavaCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="JAVA">
+    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="BLANK_LINES_AROUND_FIELD" value="1" />
     <option name="BLANK_LINES_AROUND_FIELD_IN_INTERFACE" value="1" />
     <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
-    <option name="SPACE_AROUND_ASSIGNMENT_OPERATORS" value="false" />
-    <option name="SPACE_BEFORE_METHOD_CALL_PARENTHESES" value="true" />
-    <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
-    <option name="SPACE_BEFORE_CATCH_KEYWORD" value="false" />
-    <option name="SPACE_BEFORE_ANOTATION_PARAMETER_LIST" value="true" />
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <option name="CALL_PARAMETERS_WRAP" value="1" />
+    <option name="METHOD_PARAMETERS_WRAP" value="1" />
+    <option name="RESOURCE_LIST_WRAP" value="1" />
+    <option name="EXTENDS_LIST_WRAP" value="1" />
+    <option name="THROWS_LIST_WRAP" value="1" />
+    <option name="EXTENDS_KEYWORD_WRAP" value="1" />
+    <option name="THROWS_KEYWORD_WRAP" value="1" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
+    <option name="BINARY_OPERATION_WRAP" value="1" />
+    <option name="TERNARY_OPERATION_WRAP" value="1" />
+    <option name="FOR_STATEMENT_WRAP" value="1" />
+    <option name="ARRAY_INITIALIZER_WRAP" value="1" />
+    <option name="ASSIGNMENT_WRAP" value="1" />
+    <option name="ASSERT_STATEMENT_WRAP" value="1" />
+    <option name="IF_BRACE_FORCE" value="1" />
+    <option name="DOWHILE_BRACE_FORCE" value="1" />
+    <option name="WHILE_BRACE_FORCE" value="1" />
+    <option name="FOR_BRACE_FORCE" value="1" />
+    <option name="PARAMETER_ANNOTATION_WRAP" value="1" />
+    <option name="VARIABLE_ANNOTATION_WRAP" value="1" />
+    <option name="ENUM_CONSTANTS_WRAP" value="1" />
     <arrangement>
-      <groups>
-        <group>
-          <type>GETTERS_AND_SETTERS</type>
-          <order>KEEP</order>
-        </group>
-        <group>
-          <type>OVERRIDDEN_METHODS</type>
-          <order>BY_NAME</order>
-        </group>
-      </groups>
       <rules>
         <section>
           <rule>
@@ -36,7 +46,6 @@
                 <STATIC>true</STATIC>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -49,7 +58,6 @@
                 <STATIC>true</STATIC>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -62,7 +70,6 @@
                 <STATIC>true</STATIC>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -75,7 +82,6 @@
                 <STATIC>true</STATIC>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -87,7 +93,6 @@
                 <STATIC>true</STATIC>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -99,7 +104,6 @@
                 <STATIC>true</STATIC>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -111,7 +115,6 @@
                 <STATIC>true</STATIC>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -123,7 +126,6 @@
                 <STATIC>true</STATIC>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -145,7 +147,6 @@
                 <PUBLIC>true</PUBLIC>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -157,7 +158,6 @@
                 <PROTECTED>true</PROTECTED>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -169,7 +169,6 @@
                 <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -181,7 +180,6 @@
                 <PRIVATE>true</PRIVATE>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -192,7 +190,6 @@
                 <PUBLIC>true</PUBLIC>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -203,7 +200,6 @@
                 <PROTECTED>true</PROTECTED>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -214,7 +210,6 @@
                 <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -225,7 +220,6 @@
                 <PRIVATE>true</PRIVATE>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -233,7 +227,6 @@
             <match>
               <FIELD>true</FIELD>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -248,7 +241,6 @@
             <match>
               <CONSTRUCTOR>true</CONSTRUCTOR>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -257,9 +249,9 @@
               <AND>
                 <METHOD>true</METHOD>
                 <STATIC>true</STATIC>
+                <visibility />
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -267,32 +259,9 @@
             <match>
               <AND>
                 <METHOD>true</METHOD>
-                <PUBLIC>true</PUBLIC>
+                <visibility />
               </AND>
             </match>
-            <order>BY_NAME</order>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <METHOD>true</METHOD>
-                <PROTECTED>true</PROTECTED>
-              </AND>
-            </match>
-            <order>BY_NAME</order>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <METHOD>true</METHOD>
-                <PRIVATE>true</PRIVATE>
-              </AND>
-            </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -300,7 +269,6 @@
             <match>
               <ENUM>true</ENUM>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -308,7 +276,6 @@
             <match>
               <INTERFACE>true</INTERFACE>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -319,7 +286,6 @@
                 <STATIC>true</STATIC>
               </AND>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -327,7 +293,6 @@
             <match>
               <CLASS>true</CLASS>
             </match>
-            <order>BY_NAME</order>
           </rule>
         </section>
       </rules>
